@@ -1,0 +1,67 @@
+.formWrapper {
+  width: 70%;
+  max-width: 400px;
+  margin: 5% auto;
+  height: 100vh;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.fileInput {
+  padding: 0;
+}
+form input {
+  text-align: center;
+  padding: 20px 0px;
+  font-size: 18px;
+}
+.formInput {
+  text-align: center;
+  padding: 20px 0px;
+  font-size: 18px;
+}
+.submitBTN {
+  background-color: #1a4058;
+  border: none;
+  margin-top: 20px;
+  color: #c0e6ed;
+  filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.219));
+  cursor: pointer;
+}
+.submitBTN:hover {
+  filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.5));
+}
+.formTitle {
+  color: #c0e6ed;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.inputLabel {
+  padding-top: 10px;
+  color: #c0e6ed;
+}
+.inputLabel span {
+  color: rgb(241, 145, 0);
+}
+.switchForm {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+  color: rgb(241, 145, 0);
+}
+.switchForm:hover {
+  color: rgb(241, 145, 0);
+}
+.latitude,
+.longitude {
+  background-color: rgb(146, 146, 146);
+}
+.inputBlock {
+  background-color: #c0e6ed;
+  color: #1a4058;
+}
